@@ -2417,6 +2417,16 @@ const tr: Record<string, string | { name: string; category: string }[]> = {
   'transport.modalTitle.edit': 'Edit transport',
   'transport.title': 'Transports',
   'transport.addManual': 'Manual Transport',
+
+  // Added to match EN keys
+  'journey.editor.uploadingProgress': 'Yükleniyor {done}/{total}…',
+  'journey.editor.uploadFailed': 'Fotoğraf yüklenemedi',
+  'journey.editor.uploadPartialFailed': '{total} fotoğraftan {failed} tanesi yüklenemedi — yeniden denemek için tekrar kaydedin',
+  'journey.photosUploadFailed': 'Bazı fotoğraflar yüklenemedi',
+  'settings.oauth.modal.machineClient': 'Makine istemcisi (tarayıcı girişi yok)',
+  'settings.oauth.modal.machineClientHint': 'client_credentials iznini kullanın — yönlendirme URI\'lerine gerek yoktur. Belirteç doğrudan client_id + client_secret ile verilir ve seçilen kapsamlar dahilinde sizin adınıza hareket eder.',
+  'settings.oauth.modal.machineClientUsage': 'Belirteç alın: grant_type=client_credentials, client_id ve client_secret ile POST /oauth/token gönderin. Tarayıcı yok, yenileme belirteci yok.',
+  'settings.oauth.badge.machine': 'makine',
 }
 
 export default tr
